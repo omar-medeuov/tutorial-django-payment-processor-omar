@@ -1,4 +1,3 @@
-from pydoc import describe
 
 try:
     import stripe
