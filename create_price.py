@@ -6,7 +6,7 @@ except:
     print("cannot import stripe")
 
 
-stripe.api_key = "sk_test_51RPeaAKkX97SaZuk7qJzrqAkTYp2ul8c6uniXYpMyQt1chFp101IkQkyBJPM9zejhQlWtOvGMaiazSYmhjuhQXB7009iMMSB8p"
+#removed the key, as it was blocking the GH push
 
 starter_subscription = stripe.Product.create(
     name="Starter Subscription",
